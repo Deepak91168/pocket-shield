@@ -5,7 +5,6 @@ import "./ExpensesFilter.css";
 const ExpensesFilter = (props) => {
   const yearChangeHandeler = (e) => {
     props.onYearChange(e.target.value);
-    // console.log(e.target.value);
   };
   return (
     <div className="expenses-filter">
