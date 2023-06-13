@@ -7,7 +7,6 @@ export const NewExpense = (props) => {
       ...previousExpenses,
       id: Math.random().toString(),
     };
-    // console.log(expenseDate);
     props.onAddExpense(expenseDate);
   };
   return (
