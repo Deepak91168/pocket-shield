@@ -1,0 +1,35 @@
+.chart-bar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-bar__inner {
+  height: 100%;
+  width: 100%;
+  background-color: #aa92f3;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chart-bar__fill {
+  background: rgb(0, 7, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 7, 36, 0.8990683229813665) 0%,
+    rgba(13, 66, 119, 1) 69%,
+    rgba(49, 0, 255, 1) 100%
+  );
+
+  width: 100%;
+  transition: all 0.4s ease-out;
+}
+
+.chart-bar__label {
+  font-weight: bold;
+  font-size: 0.5rem;
+  text-align: center;
+}
